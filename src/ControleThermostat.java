@@ -28,13 +28,6 @@ public class ControleThermostat {
         this.serviceTemperature = serviceTemperature;
     }
 
-    /** Permet de définir la température actuelle.
-     *
-     * @param temperature actuelle */
-    public void setTemperature(Double temperature) {
-        this.temperature = temperature;
-    }
-
     /** Méthode permettant le changement d'état du thermostat par rapport à la température actuelle et
      * la nouvelle températyre enregistré.
      *
