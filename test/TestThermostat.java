@@ -7,7 +7,10 @@ import static org.mockito.Mockito.when;
 import org.junit.Test;
 
 /**
- * Méthode test pour tester les méthodes non implémemté.*/
+ * Méthode test pour tester les méthodes non implémemté.
+ *
+ * @author Yoan Gauthier
+ * @author Hakim-Anis Hamani*/
 public class TestThermostat {
     @Test
     public void testExemple1() {
