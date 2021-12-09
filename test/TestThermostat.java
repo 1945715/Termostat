@@ -41,7 +41,7 @@ public class TestThermostat {
         assertEquals("21.5 OK - Arrêter chauffage", controleur.controlageThermostat());
 
         verify(mockServiceThermostat, times(2)).arreterChauffage();
-        verify(mockServiceThermostat, times(2)).dermarrerChauffage();
+        verify(mockServiceThermostat, times(2)).demarrerChauffage();
         verify(mockServiceTemperature, times(13)).getTemperature();
     }
 }

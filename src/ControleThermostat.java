@@ -37,7 +37,7 @@ public class ControleThermostat {
         if (temperature == null) {
             temperature = serviceTemperature.getTemperature();
             if (temperature < 21.0) {
-                serviceThermostat.dermarrerChauffage();
+                serviceThermostat.demarrerChauffage();
                 return temperature + " OK - Démarrer chauffage";
             } else {
                 serviceThermostat.arreterChauffage();
@@ -48,7 +48,7 @@ public class ControleThermostat {
                 temperature - serviceTemperature.getTemperature() >= -0.5) {
             temperature = serviceTemperature.getTemperature();
             if (temperature < 21.0) {
-                serviceThermostat.dermarrerChauffage();
+                serviceThermostat.demarrerChauffage();
                 return temperature + " OK - Démarrer chauffage";
             } else {
                 serviceThermostat.arreterChauffage();
